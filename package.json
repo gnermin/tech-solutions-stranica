@@ -1,21 +1,35 @@
 {
   "name": "tech-solutions-stranica",
   "version": "1.0.0",
+  "homepage": "/",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.374.0",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
-    "react-scripts": "^5.0.1",
-    "framer-motion": "^10.16.4",
-    "lucide-react": "^0.374.0"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.1",
     "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.38"
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
